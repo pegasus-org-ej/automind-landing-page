@@ -1,0 +1,43 @@
+:root {
+    /* Paleta de cores */
+    --cor-background-principal: #0B1120;
+    --cor-background-secundario: #111827;
+    --cor-borda: #334155;
+    --cor-texto-principal: #F8FAFC;
+    --cor-texto-secundario: #CBD5E1;
+    --cor-principal: #2563EB;
+    --cor-secundaria: #06B6D4;
+    --cor-destaque: #10B981;
+    --cor-destaque-hover: #059669;
+
+    /* Gradientes */
+    --gradiente-principal-180: linear-gradient(180deg, #2563EB 0%, #06B6D4 100%);
+    --gradiente-principal-135: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+    --gradiente-secundario: linear-gradient(135deg, rgba(37, 99, 235, 0.13) 0%, rgba(6, 182, 212, 0.13) 100%);
+
+    /* Tipografia */
+    --fonte-titulo-principal: "Space Grotesk", sans-serif;
+    --fonte-titulo-secundaria: "Sora", sans-serif;
+    --fonte-texto: "Inter", sans-serif;
+
+    --fonte-tamanho-hero: clamp(2.25rem, 5vw, 3.75rem);
+    --fonte-tamanho-titulo: clamp(1.875rem, 5vw, 2.25rem);
+    --fonte-tamanho-subtitulo: 1.125rem;
+    --fonte-tamanho-texto: 1rem;
+    --fonte-tamanho-texto-sm: .875rem;
+
+    /* Espaçamento */
+    --espacamento-1: 8px;
+    --espacamento-2: 16px;
+    --espacamento-3: 24px;
+    --espacamento-4: 32px;
+    --espacamento-5: 48px;
+    --espacamento-6: 64px;
+
+    /* Bordas */
+    --borda: 0.8px solid #334155;
+    --borda-opacidade: 0.8px solid rgba(37, 99, 235, 0.27);
+
+    --borda-radius-sm: 12px;
+    --borda-radius-md: 20px;
+}
