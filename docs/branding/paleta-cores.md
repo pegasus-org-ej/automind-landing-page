@@ -12,34 +12,44 @@ A identidade da Automind foi concebida para transmitir **confiança, inovação,
 
 A paleta foi escolhida para criar uma identidade moderna e sofisticada, inspirada em empresas SaaS e de Inteligência Artificial, mantendo excelente contraste e legibilidade.
 
-| Elemento             | Cor           | Hex       |
-| -------------------- | ------------- | --------- |
-| Background Principal | Midnight Navy | `#0B1120` |
-| Superfícies / Cards  | Slate         | `#111827` |
-| Bordas               | Slate Light   | `#334155` |
-| Texto Principal      | White         | `#F8FAFC` |
-| Texto Secundário     | Gray          | `#CBD5E1` |
-| Cor Primária         | Electric Blue | `#2563EB` |
-| Cor Secundária       | Cyan          | `#06B6D4` |
-| CTA Principal        | Emerald       | `#10B981` |
-| Hover CTA            | Emerald Dark  | `#059669` |
+| Variavel                  | Elemento             | Cor           | Hex       |
+| ------------------------- | -------------------- | ------------- | --------- |
+| `cor-background-principal`  | Background Principal | Midnight Navy | `#0B1120` |
+| `cor-background-secundario` | Superfícies / Cards  | Slate         | `#111827` |
+| `cor-borda`                 | Bordas               | Slate Light   | `#334155` |
+| `cor-texto-principal`      | Texto Principal      | White         | `#F8FAFC` |
+| `cor-texto-secundario`      | Texto Secundário     | Gray          | `#CBD5E1` |
+| `cor-principal`             | Cor Primária         | Electric Blue | `#2563EB` |
+| `cor-secundaria`            | Cor Secundária       | Cyan          | `#06B6D4` |
+| `cor-destaque`              | CTA Principal        | Emerald       | `#10B981` |
+| `cor-destaque-hover`        | Hover CTA            | Emerald Dark  | `#059669` |
 
 ## Gradientes
 
-### Hero
+### Principal
 
 ```css
 #2563EB → #06B6D4
 ```
 
-### Elementos de Destaque
+Variável:
+
+`gradiente-principal-`
+
+> Há dois gradientes: 180deg ou 135deg
+
+<!-- ### Secundário
 
 ```css
 #06B6D4 → #8B5CF6
 ```
 
-### Glow
+Variável:
+
+`gradiente-secundario` -->
+
+<!-- ### Glow
 
 ```css
 rgba(37,99,235,.25)
-```
+``` -->
