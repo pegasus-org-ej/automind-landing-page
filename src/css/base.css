@@ -185,10 +185,13 @@ img {
   display: inline-flex;
   padding: 5px 14px;
 
-  border-radius: 50%;
+  border-radius: var(--borda-radius-md);
   border: var(--borda-opacidade);
 
   background: var(--gradiente-secundario);
+
+  color: var(--cor-secundaria);
+  font-size: 12px;
 }
 
 .card {
