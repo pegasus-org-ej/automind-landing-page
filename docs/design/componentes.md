@@ -50,6 +50,16 @@ Classe própria para a estilização da logo
 | `.logo-icone` | Container do icone |
 | `.logo-texto` | Parágrafo          |
 
+## Estrutura HTML
+````HTML
+<div class="logo">
+    <div class="logo-icone">
+        <i>Icone</i>
+    </div>
+    <p class="logo-texto">Texto</p>
+</div>
+````
+
 ## Observações
 
 - Toda logo deve seguir a mesma estrutura HTML e possuir estas classes
@@ -73,3 +83,24 @@ Classe própria para a estilização da logo
 
 - Todas as variantes devem herdar da classe `.btn`.
 - Pode possuir um icone
+
+---
+
+# Card
+
+## Estrutura HTML
+````HTML
+<div class="card">
+    <div class="container-icone">
+        <i>I</i>
+    </div>
+
+    <h4>Titulo</h4>
+
+    <p>Texto</p>
+</div>
+````
+
+## Observações
+
+- A estrutura HTML do card pode mudar, não é necessário seguir à risca esta estrutura.
