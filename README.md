@@ -19,6 +19,16 @@ Projeto fictício de uma landing page para uma empresa chamada automind, no qual
 
 [link do site](#)
 
+## 🎨 Design (Figma)
+
+Link para o projeto no Figma.
+
+*Senha: PegasusEJ@Nexus*
+
+> **[Figma Design](https://www.figma.com/design/ThwibQIBFj3oCixPriKZq0/Design-Automind?node-id=0-1&m=dev)**
+
+> **[Figma Make](https://www.figma.com/make/5xw8d1phru5f0Akmzke3XK/Automind-LP?t=RDPETZ1cAkiz0vat-1)**
+
 ## Documentação
 
 A documentação completa do projeto pode ser encontrada em:
