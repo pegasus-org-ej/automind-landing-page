@@ -23,7 +23,7 @@ Projeto fictício de uma landing page para uma empresa chamada automind, no qual
 
 A documentação completa do projeto pode ser encontrada em:
 
-[link da documentação](./docs/README.md)
+[link da documentação](./docs/)
 
 A documentação padrão do projeto pode ser encontrada em:
 
@@ -31,4 +31,4 @@ A documentação padrão do projeto pode ser encontrada em:
 
 ## Status do Projeto
 
-* Em desenvolvimento
+* Parado
