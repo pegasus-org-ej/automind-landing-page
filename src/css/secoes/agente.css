@@ -1,0 +1,88 @@
+.agente {
+  background: var(--cor-background-principal);
+  color: var(--cor-texto-secundario);
+  padding: var(--espacamento-6) var(--espacamento-3);
+  font-family: var(--fonte-texto);
+}
+
+.agente-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.agente-header {
+  max-width: 720px;
+  margin: 0 auto var(--espacamento-5);
+  text-align: center;
+}
+
+.agente-title {
+  margin: 0 0 var(--espacamento-2);
+  margin-top: var(--espacamento-3);
+  color: var(--cor-texto-principal);
+  font-family: var(--fonte-titulo-principal);
+  font-size: var(--fonte-tamanho-titulo);
+  line-height: 1.2;
+}
+
+.agente-text {
+  margin: 0;
+  font-size: var(--fonte-tamanho-subtitulo);
+}
+
+.imagens-agente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Container das imagens de PC e de celular */
+.imagens-pc,
+.imagens-celular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--espacamento-3);
+  width: 100%;
+}
+
+/* Celular: uma embaixo da outra, centralizadas */
+.imagens-celular {
+  flex-direction: column;
+}
+
+/* PC: uma do lado da outra */
+.imagens-pc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;   /* alinha pelo topo */
+  gap: var(--espacamento-4);
+  width: 100%;
+}
+
+.imagens-agente img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagens-pc img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1025px) {
+  .imagens-celular {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imagens-pc {
+    display: none;
+  }
+}

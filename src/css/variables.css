@@ -9,6 +9,7 @@
     --cor-secundaria: #06B6D4;
     --cor-destaque: #10B981;
     --cor-destaque-hover: #059669;
+    --cor-estrela: #FBBF24;
 
     /* Gradientes */
     --gradiente-principal-180: linear-gradient(180deg, #2563EB 0%, #06B6D4 100%);
@@ -41,3 +42,5 @@
     --borda-radius-sm: 12px;
     --borda-radius-md: 20px;
 }
+
+

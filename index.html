@@ -1,48 +1,750 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automind</title>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Estilo CSS -->
-    <link rel="stylesheet" href="src/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a54c631c74.js" crossorigin="anonymous"></script>
+  <title>Automind</title>
+  <link rel="icon" href="src\img\icons8-brain-64.png" type="image/png" />
 </head>
+
 <body>
-    <header></header>
+  <header class="header">
+    <div class="header-container">
+      <div class="container-logo">
+        <!-- Logo -->
 
-    <main>
-        <section id="hero"></section>
+        <div class="icon-container">
+          <i class="fa-solid fa-brain"></i>
+        </div>
 
-        <section id="qualidades"></section>
+        <a href="/" class="header-logo"> </a>
+        <span class="header-logo">AutoMind</span>
+      </div>
 
-        <section id="conexao"></section>
+      <!-- Navegação -->
+      <nav class="header-nav" aria-label="Navegação principal">
+        <ul class="header-menu">
+          <li class="header-item">
+            <a href="#interesse" class="header-link"> Beneficios </a>
+          </li>
 
-        <section id="colaborador"></section>
+          <li class="header-item">
+            <a href="#como-funciona" class="header-link"> Como funciona </a>
+          </li>
 
-        <section id="interesse"></section>
+          <li class="header-item">
+            <a href="#faq" class="header-link"> FAQ </a>
+          </li>
 
-        <section id="diagnostico"></section>
+            <!-- ADICIONADO -->
+            <li class="header-item header-mobile-button">
+              <a href="#cadastro" class="header-button">
+                Agendar demonstração
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-        <section id="desejo"></section>
+        <!-- Ações -->
+        <div class="header-actions">
+          <a href="#cadastro" class="header-button"> Agendar demonstração </a>
+        </div>
 
-        <section id="agente"></section>
+      <!-- Menu mobile -->
+      <button class="header-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-        <section id="depoimentos"></section>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="hero-tag">IA Personalizada para Empresas</span>
 
-        <section id="faq"></section>
+          <h1 class="hero-title">
+            Seu próximo colaborador trabalha
+            <span class="span-24">24 horas por dia.</span>
+          </h1>
 
-        <section id="cta"></section>
-    </main>
+          <p class="hero-text">
+            Criamos Agentes de IA personalizados que atendem clientes,
+            automatizam tarefas e aumentam a produtividade da sua empresa
+            &mdash; sem precisar ampliar a equipe.
+          </p>
 
-    <footer></footer>
+            <div class="hero-actions">
+              <a href="#cadastro" class="hero-button"
+                >Agendar Demonstração Gratuita&nbsp;➝</a
+              >
+              <a href="#como-funciona" class="hero-link">Ver como funciona</a>
+            </div>
+            <div class="hero-proof">
+              <div class="hero-avatars">
+                <img
+                  src="src/img/pessoa_fernando.jpg"
+                  alt=""
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="src/img/pessoa_camila.jpg"
+                  alt=""
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="src/img/pessoa_ricardo.jpg"
+                  alt=""
+                  width="40"
+                  height="40"
+                />
+              </div>
+              <p class="hero-proof-text">
+                <strong>+150 empresas</strong> já automatizaram com a AutoMind
+              </p>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-img-box">
+              <img
+                src="./src/img/hero_img_600.jpg"
+                alt="Rede neural representando a IA da AutoMind"
+              />
+              <span class="hero-status">
+                <span class="hero-status-dot"></span>
+                Agente ativo - Atendendo
+              </span>
+            </div>
+
+          <div class="hero-stat hero-stat--top">
+            <span class="hero-stat-label">Satisfação</span>
+            <span class="hero-stat-value">98%</span>
+          </div>
+
+          <div class="hero-stat hero-stat--bottom">
+            <span class="hero-stat-label">Produtividade</span>
+            <span class="hero-stat-value">3x mais</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="qualidades" id="qualidades"></section>
+    <ul class="qualidades-lista">
+      <li class="qualidades-item">
+        <span class="qualidades-icon"><i class="fa-regular fa-clock"></i></span>
+        <span class="qualidades-text">Atendimento 24/7</span>
+      </li>
+
+      <li class="qualidades-item">
+        <span class="qualidades-icon"><i class="fa-solid fa-bolt"></i></span>
+        <span class="qualidades-text">Respostas Instantâneas</span>
+      </li>
+
+      <li class="qualidades-item">
+        <span class="qualidades-icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
+        <span class="qualidades-text">Integração com WhatsApp</span>
+      </li>
+
+      <li class="qualidades-item">
+        <span class="qualidades-icon"><i class="fa-solid fa-brain"></i></span>
+        <span class="qualidades-text">IA Personalizada</span>
+      </li>
+    </ul>
+
+    <section class="connection" id="conexoes">
+      <div class="connection-container">
+        <div class="connection-header">
+          <span class="hero-tag">O Problema</span>
+          <h2 class="connection-title">
+            Sua equipe perde tempo com tarefas repetitivas?
+          </h2>
+          <p class="connection-text">
+            Se você reconhece algum desses cenários, sua empresa está deixando
+            produtividade e receita na mesa todos os dias.
+          </p>
+        </div>
+
+        <div class="connection-grid">
+          <article class="connection-card">
+            <div class="connection-card-icon">
+              <i class="fa-regular fa-message"></i>
+            </div>
+            <h3 class="connection-card-title">Atendimento repetitivo</h3>
+            <p class="connection-card-text">
+              Sua equipe responde as mesmas perguntas dezenas de vezes por
+              dia, desperdiçando horas que poderiam gerar receita.
+            </p>
+          </article>
+
+          <article class="connection-card">
+            <div class="connection-card-icon">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3 class="connection-card-title">Equipe sobrecarregada</h3>
+            <p class="connection-card-text">
+              Colaboradores realizando tarefas repetitivas perdem motivação,
+              cometem erros e produzem menos do que poderiam.
+            </p>
+          </article>
+
+          <article class="connection-card">
+            <div class="connection-card-icon">
+              <i class="fa-solid fa-stopwatch"></i>
+            </div>
+            <h3 class="connection-card-title">Demora nas respostas</h3>
+            <p class="connection-card-text">
+              Clientes aguardam horas ou dias por um retorno. Cada minuto de
+              espera é uma oportunidade perdida para o concorrente.
+            </p>
+          </article>
+
+          <article class="connection-card">
+            <div class="connection-card-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3 class="connection-card-title">Oportunidades perdidas</h3>
+            <p class="connection-card-text">
+              Leads chegam fora do horário comercial, sem ninguém para
+              atender. Sua empresa cresce enquanto dorme — ou não cresce.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- FAZER PARTE DE COLABORADOR ABAIXO================================================================================-->
+
+    <section class="colaborador" id="como-funciona">
+      <div class="colaborador-container">
+        <div class="colaborador-content">
+          <span class="colaborador-tag">A Solução</span>
+
+          <h2 class="colaborador-title">
+            Conheça seu novo <span>colaborador digital.</span>
+          </h2>
+
+          <p class="colaborador-text">
+            Um Agente de IA é um assistente digital treinado especificamente
+            para o seu negócio. Ele aprende sobre seus produtos, serviços,
+            processos e tom de comunicação &mdash; e passa a atuar como um
+            membro da sua equipe, disponível o tempo todo.
+          </p>
+
+          <ul class="colaborador-list">
+            <li>
+              <i class="fa-regular fa-circle-check"></i>Atende clientes
+              automaticamente no WhatsApp, e-mail e chat
+            </li>
+            <li>
+              <i class="fa-regular fa-circle-check"></i>Responde dúvidas, gera
+              orçamentos e agenda reuniões
+            </li>
+            <li>
+              <i class="fa-regular fa-circle-check"></i>Trabalha 24 horas por
+              dia, 7 dias por semana, sem pausas
+            </li>
+            <li>
+              <i class="fa-regular fa-circle-check"></i>Aprende continuamente
+              e evolui com o seu negócio
+            </li>
+          </ul>
+        </div>
+
+        <div class="chat">
+          <div class="chat-msg chat-msg--cliente">
+            <span class="chat-autor">Cliente</span>
+            <p>Olá! Qual o prazo de entrega?</p>
+          </div>
+
+          <div class="chat-msg chat-msg--agente">
+            <span class="chat-autor">Agente AutoMind</span>
+            <p>
+              Olá! Nosso prazo padrão é de 3 dias úteis. Posso gerar seu pedido
+              agora mesmo. Deseja continuar?
+            </p>
+          </div>
+
+          <div class="chat-msg chat-msg--cliente">
+            <span class="chat-autor">Cliente</span>
+            <p>Sim! Meu endereço é Rua das Flores, 42.</p>
+          </div>
+
+          <div class="chat-msg chat-msg--agente">
+            <span class="chat-autor">Agente AutoMind</span>
+            <p>
+              Perfeito! Pedido #4821 registrado. Você receberá a confirmação
+              por e-mail. Posso ajudar com mais alguma coisa?
+            </p>
+          </div>
+
+          <p class="chat-status">
+            <span class="chat-status-dot"></span>
+            Agente online &mdash; Tempo médio de resposta:
+            <strong>2 segundos</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- FAZER PARTE DE COLABORADOR ACIMA================================================================================-->
+
+    <section class="interesse" id="interesse">
+      <div class="interesse-container">
+        <div class="interesse-header">
+          <span class="hero-tag">Benefícios</span>
+          <h2 class="interesse-title">O que muda na sua empresa</h2>
+          <p class="interesse-text">
+            Resultados concretos que nossas empresas parceiras alcançam nas
+            primeiras semanas de uso.
+          </p>
+        </div>
+
+        <div class="interesse-grid">
+          <article class="interesse-card">
+            <div class="interesse-card-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <h3 class="interesse-card-title">Atendimento 24 horas</h3>
+            <p class="interesse-card-text">
+              Seu negócio nunca fecha. O agente atende clientes a qualquer
+              hora do dia ou da noite, inclusive fins de semana e feriados.
+            </p>
+          </article>
+
+          <article class="interesse-card">
+            <div class="interesse-card-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="interesse-card-title">Respostas instantâneas</h3>
+            <p class="interesse-card-text">
+              Elimine o tempo de espera. Clientes recebem respostas em
+              segundos, aumentando a satisfação e a taxa de conversão.
+            </p>
+          </article>
+
+          <article class="interesse-card">
+            <div class="interesse-card-icon">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+            </div>
+            <h3 class="interesse-card-title">Redução de custos</h3>
+            <p class="interesse-card-text">
+              Reduza o custo operacional do atendimento em até 60%, sem abrir
+              mão da qualidade e da experiência do cliente.
+            </p>
+          </article>
+
+          <article class="interesse-card">
+            <div class="interesse-card-icon">
+              <i class="fa-solid fa-user-clock"></i>
+            </div>
+            <h3 class="interesse-card-title">Mais produtividade</h3>
+            <p class="interesse-card-text">
+              Sua equipe foca no que realmente importa. Deixe as tarefas
+              repetitivas para o agente e libere energia para crescer.
+            </p>
+          </article>
+
+          <article class="interesse-card">
+            <div class="interesse-card-icon">
+              <i class="fa-solid fa-plug-circle-check"></i>
+            </div>
+            <h3 class="interesse-card-title">Integração com seus sistemas</h3>
+            <p class="interesse-card-text">
+              Conectamos o agente ao seu CRM, ERP, WhatsApp Business,
+              calendário e outros sistemas já utilizados.
+            </p>
+          </article>
+
+            <article class="interesse-card">
+              <div class="interesse-card-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <h3 class="interesse-card-title">Escalabilidade</h3>
+              <p class="interesse-card-text">
+                Atenda 10 ou 10.000 clientes simultaneamente sem contratar mais
+                pessoas nem perder a qualidade do atendimento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- FAZER PARTE DE DIAGNOSTICO ABAIXO================================================================================-->
+
+      <section class="processo" id="como-funciona">
+        <div class="processo-container">
+
+          <div class="processo-header">
+            <span class="processo-tag">Como funciona</span>
+            <h2 class="processo-title">Do diagnóstico à empresa automatizada</h2>
+            <p class="processo-text">
+              Um processo simples, estruturado e sem complicações técnicas para você.
+            </p>
+          </div>
+
+          <ol class="processo-list">
+            <li class="processo-passo">
+              <span class="processo-icon">
+                <i class="fa-solid fa-diagram-project"></i>
+                <span class="processo-number">01</span>
+              </span>
+              <h3 class="processo-passo-title">Diagnóstico</h3>
+              <p class="processo-passo-text">
+                Entendemos seu negócio, processos, público-alvo e objetivos. Mapeamos onde a automação gera mais impacto imediato.
+              </p>
+            </li>
+
+            <li class="processo-passo">
+              <span class="processo-icon">
+                <i class="fa-solid fa-brain"></i>
+                <span class="processo-number">02</span>
+              </span>
+              <h3 class="processo-passo-title">Treinamento da IA</h3>
+              <p class="processo-passo-text">
+                Desenvolvemos e treinamos o agente com as informações da sua empresa, garantindo respostas precisas e alinhadas à sua marca.
+              </p>
+            </li>
+
+            <li class="processo-passo">
+              <span class="processo-icon">
+                <i class="fa-solid fa-plug"></i>
+                <span class="processo-number">03</span>
+              </span>
+              <h3 class="processo-passo-title">Integração</h3>
+              <p class="processo-passo-text">Conectamos o agente às suas plataformas: WhatsApp, site, e-mail ou qualquer outro canal de atendimento que você utiliza.</p>
+            </li>
+
+            <li class="processo-passo">
+              <span class="processo-icon">
+                <i class="fa-solid fa-rocket"></i>
+                <span class="processo-number">04</span>
+              </span>
+              <h3 class="processo-passo-title">Empresa automatizada</h3>
+              <p class="processo-passo-text">
+                Seu agente entra em operação. Acompanhamos os resultados, realizamos ajustes e evoluímos continuamente a performance.
+              </p>
+            </li>
+          </ol>
+
+        </div>
+      </section>
+
+    <!-- FAZER PARTE DE DIAGNOSTICO ACIMA================================================================================-->
+
+    <section class="diferenciais" id="conexoes">
+      <div class="diferenciais-container">
+        <div class="diferenciais-header">
+          <span class="hero-tag">Diferenciais</span>
+          <h2 class="diferenciais-title">Por que a Automind?</h2>
+          <p class="diferenciais-text">
+            Mais do que tecnologia — entregamos um parceiro comprometido com o
+            crescimento da sua empresa.
+          </p>
+        </div>
+
+        <div class="diferenciais-grid">
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="diferenciais-card-title">IA Personalizada</h3>
+            <p class="diferenciais-card-text">
+              Nenhuma solução genérica. Desenvolvemos um agente treinado
+              especificamente para o seu negócio, produto e tom de voz.
+            </p>
+          </article>
+
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="diferenciais-card-title">Implantação rápida</h3>
+            <p class="diferenciais-card-text">
+              Em até 14 dias úteis seu agente já está em operação, gerando
+              resultados sem longos projetos de implantação.
+            </p>
+          </article>
+
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <h3 class="diferenciais-card-title">Segurança</h3>
+            <p class="diferenciais-card-text">
+              Seus dados e os de seus clientes são protegidos com os mais
+              altos padrões de segurança e privacidade do mercado.
+            </p>
+          </article>
+
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3 class="diferenciais-card-title">Suporte especializado</h3>
+            <p class="diferenciais-card-text">
+              Nossa equipe acompanha você continuamente, respondendo dúvidas,
+              ajustando o agente e garantindo a melhor performance.
+            </p>
+          </article>
+
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-plug-circle-check"></i>
+            </div>
+            <h3 class="diferenciais-card-title">Integração simplificada</h3>
+            <p class="diferenciais-card-text">
+              Nos integramos aos sistemas que você já usa. Sem migrações, sem
+              complexidade, sem interrupções no seu negócio.
+            </p>
+          </article>
+
+          <article class="diferenciais-card">
+            <div class="diferenciais-card-icon">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <h3 class="diferenciais-card-title">Evolução contínua</h3>
+            <p class="diferenciais-card-text">
+              O agente aprende e melhora constantemente. Quanto mais ele
+              atende, mais preciso e eficiente ele se torna.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="agente" id="agente">
+      <div class="agente-container">
+        <div class="agente-header">
+          <span class="hero-tag">Demonstração</span>
+          <h2 class="agente-title">Veja o agente em ação</h2>
+          <p class="agente-text">
+            Uma conversa real. Uma experiência que surpreende seus clientes e libera sua equipe.
+          </p>
+        </div>
+        <div class="imagens-agente">
+        <div class="imagens-celular">
+          <img class="img-celular" src="src\img\chat2_346.png">
+          <img class="img-celular" src="src\img\painel_346.png">
+        </div>
+        <div class="imagens-pc">
+          <img class="img-pc" src="src\img\chat2_528.png">
+          <img class="img-pc" src="src\img\painel_528.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS ABAIXO==============================================================--> 
+    <section class="depoimentos" id="depoimentos">
+      <div class="depoimentos-container">
+
+        <div class="depoimentos-header">
+          <span class="depoimentos-tag">Depoimentos</span>
+          <h2 class="depoimentos-title">Empresas que já transformaram seus resultados</h2>
+          <p class="depoimentos-text">
+            Histórias reais de empresários que decidiram parar de perder tempo com o que pode ser automatizado.
+          </p>
+        </div>
+
+        <ul class="depoimentos-list">
+          <li class="depoimento"> <!--RICARDO-->
+            <div class="depoimento-stars" role="img" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+
+            <blockquote class="depoimento-text">
+              "Antes, minha equipe perdia 3 horas por dia só com atendimento básico. Com o Agente da Automind, esse tempo foi para zero. Nossas vendas cresceram 40% no primeiro trimestre."
+            </blockquote>
+
+            <div class="depoimento-autor">
+              <img src="src/img/pessoa_ricardo.jpg" alt="" width="48" height="48" />
+              <div class="depoimento-info">
+                <strong class="depoimento-name">Ricardo Mendes</strong>
+                <span class="depoimento-cargo">Diretor comercial · Mendes Distribuidora</span>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="depoimento"> <!--CAMILA-->
+            <div class="depoimento-stars" role="img" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+
+            <blockquote class="depoimento-text">
+              "Eu tinha medo de parecer impessoal com uma IA, mas o agente conversa exatamente do jeito que eu conversaria. Meus clientes adoram e eu tenho tempo para o que realmente importa."
+            </blockquote>
+
+            <div class="depoimento-autor">
+              <img src="src/img/pessoa_camila.jpg" alt="" width="48" height="48" />
+              <div class="depoimento-info">
+                <strong class="depoimento-name">Camila Torres</strong>
+                <span class="depoimento-cargo">Sócia-fundadora · Studio Torres Arquitetura</span>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="depoimento"> <!--FERNANDO-->
+            <div class="depoimento-stars" role="img" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+
+            <blockquote class="depoimento-text">
+              "Capitamos leads às 2h da manhã agora. O agente agenda visitas, qualifica o cliente e repassa tudo organizado para o corretor. Triplicamos a produtividade da equipe de vendas."
+            </blockquote>
+
+            <div class="depoimento-autor">
+              <img src="src/img/pessoa_fernando.jpg" alt="" width="48" height="48" />
+              <div class="depoimento-info">
+                <strong class="depoimento-name">Fernando Leal</strong>
+                <span class="depoimento-cargo">CEO · Leal Imóveis</span>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="container-logo">
+            <!-- Logo reaproveitada do header -->
+            <div class="icon-container">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <a href="/" class="header-logo"> </a>
+            <span class="header-logo">AutoMind</span>
+          </div>
+
+          <p class="footer-brand-text">
+            Agentes de IA personalizados que trabalham pela sua empresa 24
+            horas por dia, todos os dias.
+          </p>
+
+          <div class="footer-icons">
+            <a class="footer-link" href="#" aria-label="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+            <a class="footer-link" href="#" aria-label="Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a class="footer-link" href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+        </div>
+
+        <nav class="footer-column" aria-label="Produto">
+          <h3 class="footer-column-title">Produto</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Benefícios</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Como funciona</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Casos de Uso</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Preços</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer-column" aria-label="Empresa">
+          <h3 class="footer-column-title">Empresa</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Sobre nós</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Blog</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Parceiros</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Carreiras</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer-column" aria-label="Suporte">
+          <h3 class="footer-column-title">Suporte</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Central de Ajuda</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Documentação</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Status</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Parte de baixo: contatos + diretriz -->
+      <div class="footer-bottom">
+        <ul class="footer-contacts">
+          <li class="footer-contact">
+            <i class="fa-solid fa-envelope"></i>
+            <a class="footer-link" href="mailto:contato@automind.com.br">contato@automind.com.br</a>
+          </li>
+          <li class="footer-contact">
+            <i class="fa-solid fa-phone"></i>
+            <a class="footer-link" href="tel:+5500000000000">(11) 4002-8922</a>
+          </li>
+          <li class="footer-contact">
+            <i class="fa-solid fa-globe"></i>
+            <span class="footer-contact-text">www.automind.com.br</span>
+          </li>
+          <ul class="footer-legal-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Termos de Uso</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Política de Privacidade</a>
+            </li>
+          </ul>
+        </ul>
+
+        <div class="footer-legal">
+          <p class="footer-copyright">
+            © 2025 Automind Tecnologia. Todos os direitos reservados. CNPJ
+            00.000.000/0001-00
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>

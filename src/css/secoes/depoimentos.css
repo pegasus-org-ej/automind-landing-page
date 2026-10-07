@@ -1,0 +1,128 @@
+.depoimentos{
+    padding: 3rem 0;
+}
+
+.depoimentos-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.depoimentos-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.depoimentos-tag{
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    color: var(--cor-secundaria);
+    background: var(--gradiente-secundario);
+    border: var(--borda-opacidade);
+}
+
+.depoimentos-title{
+    font-family: var(--fonte-titulo-principal);
+    font-size: var(--fonte-tamanho-titulo);
+    line-height: 1.2;
+}
+
+.depoimentos-text{
+    color: var(--cor-texto-secundario);
+    line-height: 1.6;
+}
+
+.depoimentos-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    background: var(--cor-background-secundario);
+    border: var(--borda);
+    border-radius: var(--borda-radius-md);
+}
+
+.depoimento-stars{
+    display: flex;
+    padding-top: 1rem;
+    gap: 0.25rem;
+    color: var(--cor-estrela);
+    font-size: 0.9rem;
+}
+
+.depoimento-text{
+    margin: 0;
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--cor-texto-secundario);
+}
+
+.depoimento-autor{
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: auto;
+}
+
+.depoimento-autor img{
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.depoimento-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.depoimento-name{
+    font-size: 0.95rem;
+    color: var(--cor-texto-principal);
+}
+
+.depoimento-cargo{
+    font-size: 0.8rem;
+    color: var(--cor-texto-secundario);
+}
+
+@media (min-width: 768px) {
+    .depoimentos{
+        padding: 4rem 2rem;
+    }
+    .depoimentos-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .depoimentos{
+        padding: 5rem 3rem;
+    }
+
+    .depoimentos-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
