@@ -125,7 +125,7 @@
   gap: var(--espacamento-3);
 }
 
-@media (min-width: 801px) {
+@media (min-width: 768px) {
   .footer-content {
     display: flex;
     flex-direction: row;
