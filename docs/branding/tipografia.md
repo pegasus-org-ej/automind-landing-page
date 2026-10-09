@@ -1,19 +1,31 @@
 # Tipografia
 
+## Visão Geral
+
 A tipografia foi definida priorizando legibilidade, profissionalismo e uma identidade moderna voltada para produtos digitais.
+
+---
+
+# Fontes Utilizadas
+
+| Identificação             | Fonte         | Utilização                       |
+| ------------------------- | ------------- | -------------------------------- |
+| `fonte-titulo-principal`  | Space Grotesk | Títulos e elementos de destaque  |
+| `fonte-titulo-secundaria` | Sora          | Subtítulos e títulos secundários |
+| `fonte-texto`             | Inter         | Textos e elementos da interface  |
 
 ## Fonte para títulos
 
 ### Space Grotesk
 
-Utilização:
+**Utilização:**
 
 - Hero
 - Headings (H1 e H2)
 - Grandes chamadas
 - Destaques
 
-Características:
+**Características:**
 
 - Moderna
 - Geométrica
@@ -28,14 +40,14 @@ Variável:
 
 ### Sora
 
-Utilização:
+**Utilização:**
 
 - H3
 - H4
 - Cards
 - Títulos secundários
 
-Características:
+**Características:**
 
 - Elegante
 - Excelente leitura
@@ -49,7 +61,7 @@ Variável:
 
 ### Inter
 
-Utilização:
+**Utilização:**
 
 - Parágrafos
 - Botões
@@ -57,7 +69,7 @@ Utilização:
 - FAQ
 - Navegação
 
-Características:
+**Características:**
 
 - Alta legibilidade
 - Excelente para interfaces

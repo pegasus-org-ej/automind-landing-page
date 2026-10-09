@@ -1,8 +1,8 @@
-# Guia de Design
+# Paleta de Cores
 
 ## Visão Geral
 
-Este documento define as diretrizes de identidade visual da **Automind**, empresa fictícia especializada em **Agentes de IA Personalizados para Empresas**. Seu objetivo é garantir consistência visual e padronização durante o desenvolvimento da Landing Page.
+Este documento define as diretrizes de cores da **Automind**, empresa fictícia especializada em **Agentes de IA Personalizados para Empresas**. Seu objetivo é garantir consistência visual e padronização durante o desenvolvimento da Landing Page.
 
 A identidade da Automind foi concebida para transmitir **confiança, inovação, eficiência e profissionalismo**, posicionando a marca como uma empresa de tecnologia premium focada em resultados para negócios.
 
