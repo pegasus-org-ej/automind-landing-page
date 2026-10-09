@@ -166,15 +166,17 @@
   .header-container {
     grid-template-columns: 1fr 1fr;
     padding: 16px;
+  
   }
 
   .header-nav {
     position: absolute;
     top: 72px;
     left: 0;
-
+    
     width: 100%;
     padding: 1.5rem;
+    padding-bottom: 2.5rem;
 
     background-color: var(--cor-background-secundario);
 
@@ -187,6 +189,8 @@
       opacity 0.3s ease,
       transform 0.3s ease,
       visibility 0.3s ease;
+
+     border-bottom: 2px solid var(--cor-borda);
   }
 
   .header-nav.is-active {
@@ -212,19 +216,17 @@
 
   /* CTA dentro do menu mobile */
 
-  .header-item-cta {
-    display: block;
-    width: 100%;
-  }
+.header-mobile-button {
+  display: block;
+  width: 100%;
+}
 
-  .header-item-cta .header-button {
-    display: block;
-
-    width: 100%;
-
-    text-align: center;
-    box-sizing: border-box;
-  }
+.header-mobile-button .btn {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
 
   /* Hamburger → X */
 
