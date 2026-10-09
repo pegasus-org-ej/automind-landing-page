@@ -212,19 +212,17 @@
 
   /* CTA dentro do menu mobile */
 
-  .header-item-cta {
-    display: block;
-    width: 100%;
-  }
+.header-mobile-button {
+  display: block;
+  width: 100%;
+}
 
-  .header-item-cta .header-button {
-    display: block;
-
-    width: 100%;
-
-    text-align: center;
-    box-sizing: border-box;
-  }
+.header-mobile-button .btn {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
 
   /* Hamburger → X */
 

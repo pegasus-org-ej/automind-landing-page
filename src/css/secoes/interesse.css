@@ -16,23 +16,7 @@
   text-align: center;
 }
 
-.interesse-title {
-  margin: 0 0 var(--espacamento-2);
-  margin-top: var(--espacamento-3);
-  color: var(--cor-texto-principal);
-  font-family: var(--fonte-titulo-principal);
-  font-size: var(--fonte-tamanho-titulo);
-  line-height: 1.2;
-}
-
-.interesse-text {
-  margin: 0;
-  font-size: var(--fonte-tamanho-subtitulo);
-}
-
 /* ===== Cards ===== */
-
-
 .interesse-card-icon {
   display: flex;
   align-items: center;
@@ -45,19 +29,6 @@
   border-radius: var(--borda-radius-sm);
   color: var(--cor-secundaria);
   font-size: 1.25rem;
-}
-
-.interesse-card-title {
-  margin: 0 0 var(--espacamento-1);
-  color: var(--cor-texto-principal);
-  font-family: var(--fonte-titulo-secundaria);
-  font-size: var(--fonte-tamanho-subtitulo);
-}
-
-.interesse-card-text {
-  margin: 0;
-  font-size: var(--fonte-tamanho-texto-sm);
-  line-height: 1.6;
 }
 
 /* ===== Responsivo ===== */

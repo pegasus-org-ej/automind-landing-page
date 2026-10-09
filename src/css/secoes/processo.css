@@ -28,17 +28,6 @@
     border: var(--borda-opacidade);
 }
 
-.processo-title{
-    font-family: var(--fonte-titulo-principal);
-    font-size: var(--fonte-tamanho-titulo);
-    line-height: 1.2;
-}
-
-.processo-text{
-    color: var(--cor-texto-secundario);
-    line-height: 1.6;
-}
-
 .processo-list{
     list-style: none;
     margin: 0;
@@ -54,18 +43,6 @@
     align-items: center;
     gap: 0.75rem;
     text-align: center;
-}
-
-.processo-passo-title{
-    font-family: var(--fonte-titulo-principal);
-    font-size: var(--fonte-tamanho-subtitulo);
-    color: var(--cor-texto-principal);
-}
-
-.processo-passo-text{
-    color: var(--cor-texto-secundario);
-    font-size: var(--fonte-tamanho-texto-sm);
-    line-height: 1.6;
 }
 
 .processo-icon{
