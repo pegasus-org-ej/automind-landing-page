@@ -6,24 +6,24 @@ Projeto fictício de uma landing page para uma empresa chamada automind, no qual
 
 ## Principais Funcionalidades
 
-* Mobile First
-* Menu responsivo
+- Mobile First
+- Menu responsivo
 
 ## Tecnologias Utilizadas
 
-* HTML
-* CSS
-* JS
+- HTML
+- CSS
+- JS
 
 ## Link do site
 
-[link do site](#)
+[link do site](#https://pegasus-org-ej.github.io/automind-landing-page/)
 
 ## 🎨 Design (Figma)
 
 Link para o projeto no Figma.
 
-*Senha: PegasusEJ@Nexus*
+_Senha: PegasusEJ@Nexus_
 
 > **[Figma Design](https://www.figma.com/design/ThwibQIBFj3oCixPriKZq0/Design-Automind?node-id=0-1&m=dev)**
 
@@ -41,4 +41,4 @@ A documentação padrão do projeto pode ser encontrada em:
 
 ## Status do Projeto
 
-* Parado
+- Pausado

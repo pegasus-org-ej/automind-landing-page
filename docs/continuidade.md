@@ -2,13 +2,20 @@
 
 **Status:** Pausado
 
-O projeto encontra-se pausado em sua fase inicial de desenvolvimento.
+O projeto encontra-se pausado em sua fase final de desenvolvimento (73% concluído).
 
-Até o momento, foram desenvolvidos apenas os componentes básicos, as variáveis CSS, o arquivo `base.css` e a estrutura básica do HTML. Todas as seções da Landing Page já estão previstas na estrutura, porém ainda não possuem seu conteúdo e implementação final.
+Falta apenas 2 seções para finalizar o projeto:
+
+- FAQ
+- CTA
 
 O projeto foi criado como uma iniciativa fictícia para capacitação dos membros da EJ e está alinhado a uma OKR definida no 3º ciclo. Inicialmente, a proposta não teve continuidade devido à baixa adesão dos membros, fazendo com que o desenvolvimento fosse interrompido.
 
-A intenção atual é retomar o projeto posteriormente como parte da capacitação dos trainees do segundo Processo Seletivo.
+O projeto foi retomado no período de trainee para ser utilizado como capacitação, tanto técnica, quanto para liderança. 2 trainees trabalharam no projeto, onde houve uma rotação de gerência.
+
+Não conseguiram finalizar o projeto devido alguns ajustes, que foram pontuados na primeira entrega, que era necessário fazer.
+
+- Período Trainee: 29/09 - 09/10
 
 # 📑 Decisões Importantes
 
@@ -20,9 +27,12 @@ A decisão está relacionada tanto à natureza do serviço quanto aos objetivos 
 
 # 🚧 Pendências
 
-## Desenvolvimento das seções
+## Desenvolvimento das 2 seções
 
-Todas as seções da Landing Page ainda precisam ser desenvolvidas. A estrutura básica do HTML já existe, mas é necessário implementar o conteúdo e a apresentação de cada seção.
+Falta apenas 2 seções para serem desenvolvidas:
+
+- FAQ
+- CTA
 
 ## Ícones do Figma
 
@@ -30,22 +40,37 @@ Existe pelo menos um ícone utilizado no design do Figma que não possui corresp
 
 **Pendência:** atualizar o ícone correspondente no Figma para refletir o ícone utilizado no projeto.
 
-## Link do site
-
-O link do site no `README.md` ainda está definido como `#`.
-
-**Pendência:** atualizar o link quando houver uma versão publicada do projeto.
-
 ## Revisão da documentação
 
 Existem pontos marcados como **“Verificar”** nas documentações do projeto que ainda precisam ser conferidos na implementação.
 
+## Ajustes técnicos
+
+Existe códigos css repetidos nas seções, códigos que estão no arquivo `base.css`
+
+**Pendência:** criar uma Issue para documentar
+
+**Pendência:** refatorar estes códigos
+
+## Verificação de qualidade
+
+É necessário analisar todo o código e ver se está no padrão de qualidade:
+
+- HTML Semântico
+- CSS organizado
+- Sem código repetido
+
+**Pendência:** analisar o código
+
+**Pendência:** abrir Issue se achar algo errado ou fora do padrão de qualidade
+
+**Pendência:** ajustar
+
 # 🚀 Próximos Passos
 
-1. Retomar o desenvolvimento do projeto.
-2. Utilizar o projeto como atividade de capacitação dos trainees do segundo Processo Seletivo.
-3. Implementar o conteúdo e a apresentação de todas as seções da Landing Page.
-4. Atualizar o ícone correspondente no Figma.
-5. Revisar os pontos pendentes da documentação.
-6. Publicar a versão desenvolvida no GitHub Pages.
-7. Realizar otimizações de SEO.
+1. Finalizar o projeto
+2. Verificar a qualidade do código e realizar os ajustes necessários
+3. Arrumar o restante das pendências presentes neste documento
+4. Atualizar documentação
+5. Merge na `main`
+6. Realizar otimizações de SEO.
