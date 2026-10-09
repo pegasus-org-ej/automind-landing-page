@@ -31,23 +31,7 @@
 }
 
 /* ===== Cards ===== */
-.interesse-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--espacamento-3);
-}
 
-.interesse-card {
-  padding: var(--espacamento-4);
-  background: var(--cor-background-secundario);
-  border: var(--borda);
-  border-radius: var(--borda-radius-md);
-  transition: border-color 0.2s;
-}
-
-.interesse-card:hover {
-  border-color: var(--cor-principal);
-}
 
 .interesse-card-icon {
   display: flex;
@@ -77,14 +61,14 @@
 }
 
 /* ===== Responsivo ===== */
-@media (min-width: 601px) {
-  .interesse-grid {
+@media (min-width: 768px) {
+  .container-card {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1001px) {
-  .interesse-grid {
+@media (min-width: 1024px) {
+  .container-card {
     grid-template-columns: repeat(3, 1fr);
   }
 }

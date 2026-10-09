@@ -1,4 +1,7 @@
 .connection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacamento-2);
   background: var(--cor-background-principal);
   color: var(--cor-texto-secundario);
   padding: var(--espacamento-6) var(--espacamento-3);
@@ -31,21 +34,8 @@
 }
 
 /* ===== Cards ===== */
-.connection-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--espacamento-3);
-}
 
-.connection-card {
-  padding: var(--espacamento-4);
-  background: var(--cor-background-secundario);
-  border: var(--borda);
-  border-radius: var(--borda-radius-md);
-  transition: border-color 0.2s;
-}
-
-.connection-card:hover {
+.card:hover {
   border-color: var(--cor-principal);
 }
 
@@ -77,14 +67,14 @@
 }
 
 /* ===== Responsivo ===== */
-@media (min-width: 601px) {
-  .connection-grid {
-    grid-template-columns: repeat(2, 1fr);
+@media (min-width: 768px) {
+  .connection .container-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1001px) {
-  .connection-grid {
-    grid-template-columns: repeat(4, 1fr);
+@media (min-width: 1024px) {
+  .connection .container-card {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
