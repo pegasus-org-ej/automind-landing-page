@@ -74,7 +74,7 @@
   list-style: none;
 }
 
-.header-link {
+.header-item {
   color: var(--cor-texto-secundario);
   font-family: var(--fonte-texto);
   font-size: 0.95rem;
@@ -83,7 +83,7 @@
   transition: color 0.2s ease;
 }
 
-.header-link:hover {
+.header-item:hover {
   color: var(--cor-secundaria);
 }
 
@@ -101,23 +101,6 @@
   text-decoration: none;
 }
 
-.header-button {
-  padding: 0.7rem 1.1rem;
-
-  color: var(--cor-texto-principal);
-  background: var(--cor-destaque);
-
-  border-radius: var(--borda-radius-sm);
-
-  font-family: var(--fonte-texto);
-  text-decoration: none;
-
-  transition: background 0.2s ease;
-}
-
-.header-button:hover {
-  background: var(--cor-destaque-hover);
-}
 
 /* ========================================
    MENU MOBILE

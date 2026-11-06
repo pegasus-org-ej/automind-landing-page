@@ -37,16 +37,6 @@
   width: 100%;
 }
 
-/* Container das imagens de PC e de celular */
-.imagens-pc,
-.imagens-celular {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--espacamento-3);
-  width: 100%;
-}
-
 /* Celular: uma embaixo da outra, centralizadas */
 .imagens-celular {
   flex-direction: column;
@@ -75,13 +65,13 @@
   height: auto;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .imagens-celular {
     display: none;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
   .imagens-pc {
     display: none;
   }
