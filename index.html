@@ -522,14 +522,15 @@
           </p>
         </div>
         <div class="imagens-agente">
-          <div class="imagens-celular">
-            <img class="img-celular" src="src\img\chat2_346.png">
-            <img class="img-celular" src="src\img\painel_346.png">
-          </div>
-          <div class="imagens-pc">
-            <img class="img-pc" src="src\img\chat2_528.png">
-            <img class="img-pc" src="src\img\painel_528.png">
-          </div>
+          <picture>
+            <source media="(min-width: 768px)" srcset="src/img/chat2_528.png" />
+            <img src="src/img/chat2_346.png" alt="" width="346" height="..." loading="lazy" />
+          </picture>
+
+          <picture>
+            <source media="(min-width: 768px)" srcset="src/img/painel_528.png" />
+            <img src="src/img/painel_346.png" alt="" width="346" height="..." loading="lazy" />
+          </picture>
         </div>
     </section>
 

@@ -20,24 +20,15 @@
 
 .imagens-agente {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-/* Celular: uma embaixo da outra, centralizadas */
-.imagens-celular {
   flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
 }
 
-/* PC: uma do lado da outra */
-.imagens-pc {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;   /* alinha pelo topo */
-  gap: var(--espacamento-4);
-  width: 100%;
+.imagens-agente picture{
+  flex: 1;
+  min-width: 0;
 }
 
 .imagens-agente img {
@@ -46,21 +37,16 @@
   height: auto;
 }
 
-.imagens-pc img {
-  flex: 1;
-  min-width: 0;
-  width: 100%;
-  height: auto;
-}
-
 @media screen and (min-width: 768px) {
-  .imagens-celular {
-    display: none;
+  .imagens-agente {
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .imagens-pc {
-    display: none;
+@media screen and (min-width: 1024px) {
+  .imagens-agente {
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
