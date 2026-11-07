@@ -30,7 +30,7 @@
 }
 
 .colaborador-title{
-    font-family: var(--cor-titulo-principal);
+    font-family: var(--fonte-titulo-principal);
     font-size: var(--fonte-tamanho-titulo);
     line-height: 1.2;
 }

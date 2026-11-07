@@ -39,24 +39,6 @@
   box-sizing: border-box;
 }
 
-/* Logo */
-
-.container-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.header-logo {
-  justify-self: start;
-
-  color: var(--cor-texto-principal);
-  font-family: var(--fonte-titulo-principal);
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 /* Navegação */
 
 .header-nav {
