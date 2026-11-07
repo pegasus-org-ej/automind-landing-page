@@ -1,10 +1,4 @@
-.processo{
-    padding: 3rem 0;
-}
-
-.processo-container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container{
     padding-inline: 1.25rem;
     display: flex;
     flex-direction: column;
@@ -88,10 +82,6 @@
 }
 
 @media (min-width: 1024px) {
-    .processo{
-        padding: 5rem 3rem;
-    }
-
     .processo-list{
         grid-template-columns: repeat(4, 1fr);
     }
