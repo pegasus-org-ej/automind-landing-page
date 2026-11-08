@@ -4,20 +4,6 @@
   text-align: center;
 }
 
-.agente-title {
-  margin: 0 0 var(--espacamento-2);
-  margin-top: var(--espacamento-3);
-  color: var(--cor-texto-principal);
-  font-family: var(--fonte-titulo-principal);
-  font-size: var(--fonte-tamanho-titulo);
-  line-height: 1.2;
-}
-
-.agente-text {
-  margin: 0;
-  font-size: var(--fonte-tamanho-subtitulo);
-}
-
 .imagens-agente {
   display: flex;
   flex-direction: column;

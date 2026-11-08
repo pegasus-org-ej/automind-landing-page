@@ -17,7 +17,7 @@
     align-self: center;
 }
 
-.processo-list{
+.processo-lista{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-.processo-icon{
+.processo-icone{
     position: relative;
     width: 4rem;
     height: 4rem;
@@ -47,7 +47,7 @@
     font-size: 1.5rem;
 }
 
-.processo-number{
+.processo-numero{
     position: absolute;
     top: -0.4rem;
     right: -0.4rem;
@@ -65,11 +65,8 @@
 }
 
 @media (min-width: 768px) {
-    .processo{
-        padding: 4rem 2rem;
-    }
 
-    .processo-list{
+    .processo-lista{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2.5rem 2rem;
@@ -77,7 +74,7 @@
 }
 
 @media (min-width: 1024px) {
-    .processo-list{
+    .processo-lista{
         grid-template-columns: repeat(4, 1fr);
     }
 }

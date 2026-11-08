@@ -22,7 +22,7 @@
   gap: var(--espacamento-6);
 }
 
-.footer-icons {
+.footer-icones {
   margin-bottom: var(--espacamento-3);
   font-size: 2.5rem;
   display: flex;
@@ -30,21 +30,14 @@
   color: var(--cor-texto-secundario);
 }
 
-.footer-brand-name {
-  margin: 0 0 var(--espacamento-1);
-  color: var(--cor-texto-principal);
-  font-family: var(--fonte-titulo-principal);
-  font-size: var(--fonte-tamanho-subtitulo);
-}
-
-.footer-brand-text {
+.footer-brand-texto {
   margin: 0 0 var(--espacamento-5);
   margin-top: var(--espacamento-2);
   max-width: 32ch;
 }
 
 
-.footer-column-title {
+.footer-column-titulo {
   margin: 0 0 var(--espacamento-2);
   color: var(--cor-texto-principal);
   font-family: var(--fonte-titulo-secundaria);
@@ -52,7 +45,7 @@
   text-align: left;
 }
 
-.footer-list {
+.footer-lista {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -83,7 +76,7 @@
   padding-top: var(--espacamento-4);
 }
 
-.footer-contacts {
+.footer-contatos {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -92,13 +85,13 @@
   gap: var(--espacamento-2) var(--espacamento-4);
 }
 
-.footer-contact {
+.footer-contato {
   display: flex;
   align-items: center;
   gap: var(--espacamento-1);
 }
 
-.footer-contact i {
+.footer-contato i {
   color: var(--cor-secundaria);
 }
 
@@ -114,7 +107,7 @@
   margin: 0;
 }
 
-.footer-legal-list {
+.footer-legal-lista {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -122,11 +115,6 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: var(--espacamento-3);
-}
-
-.footer-bottom,
-.footer-legal {
-  position: relative;
 }
 
 .footer-bottom::before,

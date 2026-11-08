@@ -43,7 +43,7 @@
   margin-inline: 0;
 }
 
-.colaborador-list{
+.colaborador-lista{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -52,14 +52,14 @@
     gap: 1rem;
 }
 
-.colaborador-list li{
+.colaborador-lista li{
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
     color: var(--cor-texto-secundario);
 }
 
-.colaborador-list i{
+.colaborador-lista i{
     margin-top: 0.2rem;
     color: var(--cor-destaque);
 }
