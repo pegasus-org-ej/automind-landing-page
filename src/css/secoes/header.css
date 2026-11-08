@@ -23,32 +23,58 @@
 }
 
 /* ========================================
-   PC + TABLET
+   BASE: CELULAR
 ======================================== */
 
 .header-container {
   width: 100%;
   min-height: 72px;
-  padding: 16px 24px;
+  padding: 16px;
   margin-inline: auto;
 
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 
   box-sizing: border-box;
 }
 
-/* Navegação */
+/* Navegação: dropdown escondido */
 
 .header-nav {
-  justify-self: center;
+  position: absolute;
+  top: 72px;
+  left: 0;
+
+  width: 100%;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+
+  background-color: var(--cor-background-secundario);
+  border-bottom: 2px solid var(--cor-borda);
+  box-sizing: border-box;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.header-nav.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .header-menu {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.5rem;
 
   margin: 0;
   padding: 0;
@@ -69,13 +95,24 @@
   color: var(--cor-secundaria);
 }
 
-/* Ações */
+/* CTA dentro do menu mobile */
+
+.header-mobile-button {
+  display: block;
+  width: 100%;
+}
+
+.header-mobile-button a {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Ações (Entrar + botão): escondidas no celular */
 
 .header-actions {
-  display: flex;
-  align-items: center;
-  justify-self: end;
-  gap: 1rem;
+  display: none;
 }
 
 .header-login {
@@ -83,14 +120,10 @@
   text-decoration: none;
 }
 
-
-/* ========================================
-   MENU MOBILE
-======================================== */
+/* Botão hambúrguer */
 
 .header-toggle {
-  display: none;
-
+  display: block;
   justify-self: end;
 
   padding: 0.5rem;
@@ -115,109 +148,82 @@
     opacity 0.2s ease;
 }
 
-.header-mobile-button {
-  display: none;
+/* Hambúrguer → X */
+
+.header-toggle.is-active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.header-toggle.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.header-toggle.is-active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* ========================================
-   CELULAR
+   TABLET
 ======================================== */
 
-@media (max-width: 768px) {
-  .header-mobile-button {
-    display: block;
-  }
-
+@media (min-width: 768px) {
   .header-container {
-    grid-template-columns: 1fr 1fr;
-    padding: 16px;
-  
+    grid-template-columns: auto 1fr auto;
+    padding: 16px 20px;
+    gap: 1rem;
   }
 
+  /* desfaz o dropdown */
   .header-nav {
-    position: absolute;
-    top: 72px;
-    left: 0;
-    
-    width: 100%;
-    padding: 1.5rem;
-    padding-bottom: 2.5rem;
+    position: static;
+    justify-self: center;
 
-    background-color: var(--cor-background-secundario);
+    width: auto;
+    padding: 0;
 
-    box-sizing: border-box;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
+    background: none;
+    border-bottom: 0;
 
-    transition:
-      opacity 0.3s ease,
-      transform 0.3s ease,
-      visibility 0.3s ease;
-
-     border-bottom: 2px solid var(--cor-borda);
-  }
-
-  .header-nav.is-active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
-  }
-
-  .header-actions {
-    display: none;
-  }
-
-  .header-toggle {
-    display: block;
+    transform: none;
+    transition: none;
   }
 
   .header-menu {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .header-item{
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .header-mobile-button {
+    display: none;
+  }
+
+  .header-actions {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1.5rem;
+    align-items: center;
+    justify-self: end;
+    gap: 1rem;
   }
 
-  /* CTA dentro do menu mobile */
-
-.header-mobile-button {
-  display: block;
-  width: 100%;
+  /* sem hambúrguer */
+  .header-toggle {
+    display: none;
+  }
 }
 
-.header-mobile-button .btn {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: left;
-}
+/* ========================================
+   PC
+======================================== */
 
-  /* Hamburger → X */
-
-  .header-toggle.is-active span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
-
-  .header-toggle.is-active span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .header-toggle.is-active span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-
-  .header-toggle span {
-    display: block;
-
-    width: 24px;
-    height: 2px;
-    margin: 5px 0;
-
-    background: var(--cor-texto-principal);
-
-    transition:
-      transform 0.2s ease,
-      opacity 0.2s ease;
+@media (min-width: 1024px) {
+  .header-container {
+    padding: 16px 40px;
   }
 }

@@ -6,13 +6,8 @@
     text-align: center;
 }
 
-.depoimentos-tag{
-    padding: 0.35rem 0.8rem;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    color: var(--cor-secundaria);
-    background: var(--gradiente-secundario);
-    border: var(--borda-opacidade);
+.depoimentos-header .hero-tag{
+    align-self: center;
 }
 
 .depoimentos-title{
