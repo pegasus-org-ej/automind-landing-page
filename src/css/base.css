@@ -179,6 +179,21 @@ img {
 .btn-transparente {
   background-color: transparent;
   border: var(--borda);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem 2rem;
+  font-family: var(--fonte-texto);
+  color: var(--cor-texto-principal);
+  border: var(--borda);
+  border-radius: var(--borda-radius-sm);
+  text-decoration: none;
+  background: transparent;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 .badge {

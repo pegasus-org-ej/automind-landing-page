@@ -1,15 +1,3 @@
-.interesse {
-  background: var(--cor-background-principal);
-  color: var(--cor-texto-secundario);
-  padding: var(--espacamento-6) var(--espacamento-3);
-  font-family: var(--fonte-texto);
-}
-
-.interesse-container {
-  max-width: 1250px;
-  margin: 0 auto;
-}
-
 .interesse-header {
   max-width: 720px;
   margin: 0 auto var(--espacamento-5);
