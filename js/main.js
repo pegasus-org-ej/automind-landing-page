@@ -1,6 +1,6 @@
 const headerToggle = document.querySelector(".header-toggle");
 const headerNav = document.querySelector(".header-nav");
-const headerLinks = document.querySelectorAll(".header-link");
+const headerLinks = document.querySelectorAll(".header-item");
 
 
 // ========================================

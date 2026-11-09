@@ -43,3 +43,10 @@
     gap: 1.5rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .imagens-agente {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
