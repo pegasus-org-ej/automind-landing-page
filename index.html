@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/a54c631c74.js" crossorigin="anonymous"></script>
   <title>Automind</title>
-  <link rel="icon" href="src\img\icons8-brain-64.png" type="image/png" />
+  <link rel="icon" href="src/img/icons8-brain-64.png" type="image/png" />
 </head>
 
 <body>
@@ -19,19 +19,18 @@
       <div class="logo">
         <!-- Logo -->
 
-        <div class="icon-container">
-          <i class="fa-solid fa-brain"></i>
+        <div class="icone-container">
+          <i class="fa-solid fa-brain" aria-hidden="true"></i>
         </div>
 
-        <a href="/" class="Logo"> </a>
-        <span class="logo-texto">AutoMind</span>
+        <a href="#hero"><span class="logo-texto">AutoMind</span> </a>        
       </div>
 
       <!-- Navegação -->
       <nav class="header-nav" aria-label="Navegação principal">
         <ul class="header-menu">
           <li class="header-item">
-            <a href="#interesse"> Beneficios </a>
+            <a href="#interesse"> Benefícios </a>
           </li>
 
           <li class="header-item">
@@ -39,12 +38,12 @@
           </li>
 
           <li class="header-item">
-            <a href="#faq"> FAQ </a>
+            <a href="#"> FAQ </a>
           </li>
 
           <!-- Botão verde do menu mobile -->
           <li class="header-item header-mobile-button">
-            <a href="#cadastro" class="btn">
+            <a href="#" class="btn">
               Agendar demonstração
             </a>
           </li>
@@ -53,7 +52,7 @@
 
       <!-- Ações -->
       <div class="header-actions">
-        <a href="#cadastro" class="btn"> Agendar demonstração </a>
+        <a href="#" class="btn"> Agendar demonstração </a>
       </div>
 
       <!-- Menu mobile -->
@@ -67,7 +66,7 @@
 
   <main>
     <!--HERO ABAIXO-->
-    <section id="inicio">
+    <section id="hero">
       <div class="hero-container">
         <div class="hero-content">
           <span class="hero-tag">IA Personalizada para Empresas</span>
@@ -84,10 +83,10 @@
           </p>
 
           <div class="hero-actions">
-            <a href="#cadastro" class="btn">
+            <a href="#" class="btn">
               Agendar Demonstração Gratuita&nbsp;➝
             </a>
-            <a href="#como-funciona" class="btn-transparente">Ver como funciona</a>
+            <a href="#processo" class="btn-transparente">Ver como funciona</a>
           </div>
           <div class="hero-proof">
             <div class="hero-avatars">
@@ -101,7 +100,7 @@
           </div>
         </div>
         <div class="hero-visual">
-          <div>
+          <div class="hero-img-box">
             <img src="./src/img/hero_img_600.jpg" alt="Rede neural representando a IA da AutoMind" />
             <span class="hero-status">
               <span class="hero-status-dot"></span>
@@ -429,7 +428,7 @@
 
     <!--DIFERENCIAIS ABAIXO-->
     
-    <section id="conexoes">
+    <section id="diferenciais">
       <div class="container">
         <div class="diferenciais-header">
           <span class="hero-tag">Diferenciais</span>
@@ -523,14 +522,15 @@
         <div class="imagens-agente">
           <picture>
             <source media="(min-width: 768px)" srcset="src/img/chat2_528.png" />
-            <img src="src/img/chat2_346.png" alt="" width="346" height="..." loading="lazy" />
+            <img src="src/img/chat2_346.png" alt="Chat com agente" width="346" loading="lazy" />
           </picture>
 
           <picture>
             <source media="(min-width: 768px)" srcset="src/img/painel_528.png" />
-            <img src="src/img/painel_346.png" alt="" width="346" height="..." loading="lazy" />
+            <img src="src/img/painel_346.png" alt="Painel do agente" width="346" loading="lazy" />
           </picture>
         </div>
+      </div>
     </section>
 
     <!--DEPOIMENTOS ABAIXO-->
@@ -630,10 +630,10 @@
         <div class="footer-brand">
           <div class="container-logo">
             <!-- Logo reaproveitada do header -->
-            <div>
-              <i class="fa-solid fa-brain"></i>
+            <div class="icone-container">
+              <i class="fa-solid fa-brain" aria-hidden="true"></i>
             </div>
-            <a href="#inicio">
+            <a href="#hero">
               <span class="logo">AutoMind</span>
             </a>
             
@@ -715,7 +715,7 @@
           </li>
           <li class="footer-contato">
             <i class="fa-solid fa-phone"></i>
-            <a class="footer-link" href="tel:+5500000000000">(11) 4002-8922</a>
+            <a class="footer-link" href="tel:+551140028922">(11) 4002-8922</a>
           </li>
           <li class="footer-contato">
             <i class="fa-solid fa-globe"></i>
