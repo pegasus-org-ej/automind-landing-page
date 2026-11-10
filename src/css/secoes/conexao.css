@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 1024px) {
-  .container-card {
+  .conexao .container-card {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

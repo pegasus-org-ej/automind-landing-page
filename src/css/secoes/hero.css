@@ -107,7 +107,7 @@ strong {
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
   font-size: 0.75rem;
-  background: rgba(8, 17, 32, 0, 7);
+  background: rgba(8, 17, 32, 0.7);
   backdrop-filter: blur(6px);
   border: var(--borda);
   color: var(--cor-texto-principal);
