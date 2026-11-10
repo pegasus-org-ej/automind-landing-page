@@ -31,6 +31,18 @@ body {
   margin-top: var(--espacamento-6);
 }
 
+.icone-container {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--gradiente-principal-135);
+  border-radius: var(--borda-radius-sm);
+}
+
 section {
   padding: 96px var(--espacamento-3);
 }
