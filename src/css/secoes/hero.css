@@ -23,20 +23,6 @@
   font-family: var(--fonte-texto);
 }
 
-.hero-title {
-  font-family: var(--fonte-titulo-principal);
-  font-size: var(--fonte-tamanho-hero);
-  line-height: 1.15;
-  color: var(--cor-texto-principal);
-}
-
-.hero-text {
-  font-family: var(--fonte-texto);
-  font-size: var(--fonte-tamanho-texto);
-  line-height: 1.6;
-  color: var(--cor-texto-secundario);
-}
-
 .hero-actions {
   display: flex;
   flex-direction: column;

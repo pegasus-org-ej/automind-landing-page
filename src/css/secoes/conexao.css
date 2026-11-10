@@ -6,10 +6,6 @@
 
 /* ===== Cards ===== */
 
-.card:hover {
-  border-color: var(--cor-principal);
-}
-
 .card .container-icone {
   margin-bottom: var(--espacamento-3);
   border: var(--borda-opacidade);

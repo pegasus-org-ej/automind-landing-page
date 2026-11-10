@@ -5,11 +5,8 @@
 }
 
 /* ===== Cards ===== */
-.card:hover {
-  border-color: var(--cor-principal);
-}
 
-.diferenciais-card-icon {
+.diferenciais-card-icone {
   display: flex;
   align-items: center;
   justify-content: center;
