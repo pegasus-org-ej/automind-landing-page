@@ -23,6 +23,7 @@ A paleta foi escolhida para criar uma identidade moderna e sofisticada, inspirad
 | `cor-secundaria`            | Cor Secundária       | Cyan          | `#06B6D4` |
 | `cor-destaque`              | CTA Principal        | Emerald       | `#10B981` |
 | `cor-destaque-hover`        | Hover CTA            | Emerald Dark  | `#059669` |
+| `cor-estrela`        | Estrelas            | Amber  | `#FBBF24` |
 
 ## Gradientes
 
