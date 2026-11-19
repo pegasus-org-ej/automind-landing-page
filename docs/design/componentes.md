@@ -17,8 +17,8 @@ Engloba um grupo de elementos, não permitindo crescer mais do que 1500px e semp
 
 - Todo elemento grande que não cresce mais que 1500px utiliza a classe `.container`.
 - Todas as variantes devem herdar da classe `.container`.
+- O `.container-card` é um grid que fica dentro de um `.container`, e os dois nunca aparecem na mesma tag.
 
-> **Verificar:** confirmar se `.container-card` é realmente uma variante de `.container` e se deve obrigatoriamente utilizar essa classe em conjunto.
 
 ---
 
@@ -73,7 +73,7 @@ Classe própria para a estilização da logo.
 
 # Botão
 
-> **Verificar:** registrar o objetivo do componente, caso exista uma definição específica para sua utilização.
+- Chamadas para ação (CTA). `.btn` (verde) é o CTA principal, “Agendar demonstração”. `.btn-transparente` é o secundário, “Ver como funciona”.
 
 ## Componentes
 
@@ -84,16 +84,14 @@ Classe própria para a estilização da logo.
 
 ## Estados
 
-- Hover
-
-> **Verificar:** confirmar se existem outros estados relevantes, como `focus`, `active` ou `disabled`.
+- Hover: só o `.btn` muda (fundo vai para `--cor-destaque-hover`, com transição de 0,3s). O `.btn-transparente` não tem mudança visível.
+- Focus, active e disabled: não implementados. Nenhum CSS tem `:focus`, `:focus-visible`, `:active` ou `:disabled`. Disabled nem se aplica, porque os botões são links.
 
 ## Observações
 
 - Todas as variantes devem herdar da classe `.btn`.
 - Pode possuir um ícone.
-
-> **Verificar:** confirmar a estrutura HTML recomendada para utilização do botão, caso exista alguma estrutura ou elemento obrigatório.
+- Os botões são links `<a>`, só com texto, sem elemento obrigatório.
 
 ---
 
@@ -116,7 +114,11 @@ Classe própria para a estilização da logo.
 ## Observações
 
 - A estrutura HTML do card pode mudar, não é necessário seguir à risca esta estrutura.
-
-> **Verificar:** caso existam classes, variações ou estados específicos do card na implementação, documentá-los aqui.
+- Estrutura real: `<article class="card">`, com um `<h3>`.
+- Variações: não existem classes modificadoras. A única variação é o container do ícone, que muda por seção:
+  - .container-icone
+  - .interesse-card-icone
+  - .diferenciais-card-icone
+- Estados: só hover, que troca a borda para `--cor-principal`, sem transição. Foco e ativo não se aplicam, porque o card não é clicável.
 
 ---
