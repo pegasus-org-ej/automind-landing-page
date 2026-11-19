@@ -43,9 +43,9 @@ Versão: 7.3.0 - all.min
 | Bars                 | `<i class="fa-solid fa-bars"></i>`                 | **Verificar utilização no projeto** | [Font Awesome — Bars](https://fontawesome.com/icons/bars?f=classic&s=solid)                                 |
 
 ## Regras de utilização
-
-> **Verificar:** caso existam regras específicas definidas no projeto para tamanho, peso, cor, alinhamento, espaçamento, responsividade ou utilização dos ícones em componentes, registrá-las nesta seção.
+Levantadas a partir de `base.css` e dos CSS de cada seção. Os valores computados foram conferidos em Chrome com viewport de 1280px.
 
 ## Observações
 
 Os ícones documentados devem corresponder aos ícones efetivamente utilizados na implementação do projeto.
+Ao adicionar, trocar ou remover um ícone no `index.html`, atualizar a tabela de utilizados e, se necessário, a seção de ícones sem uso.
