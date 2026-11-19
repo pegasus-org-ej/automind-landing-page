@@ -26,7 +26,7 @@ Sempre que possível, utilize estes valores em vez de números arbitrários.
 # Border Radius
 
 | Variável            |  Valor |
-| ------------------- | -----: |
+| ------------------- | -----: | 
 | `--borda-radius-sm` | `12px` |
 | `--borda-radius-md` | `20px` |
 
@@ -34,9 +34,10 @@ Sempre que possível, utilize estes valores em vez de números arbitrários.
 
 # Bordas
 
-| Variável  |                 Valor |
-| --------- | --------------------: |
-| `--borda` | `0.8px solid #334155` |
+| Variável  | Valor                 | Finalidade |
+| --------- | --------------------: | ---------- |
+| `--borda` | `0.8px solid #334155` | Borda padrão de cards, seções e botão secundário |
+| `--borda-opacidade` | `0.8px solid rgba(37, 99, 235, 0.27)` | Borda azul translúcida dos containers de ícone e do `.badge` |
 
 ---
 
