@@ -266,7 +266,6 @@ A Navbar possui acesso às principais seções da Landing Page:
 
 O CTA "Agendar Demonstração" permanece acessível pela Navbar.
 
-> **Verificar:** confirmar se esses itens utilizam âncoras para direcionar o visitante às respectivas seções e se o CTA da Navbar possui algum comportamento específico.
 
 ---
 
@@ -279,5 +278,3 @@ O CTA "Agendar Demonstração" permanece acessível pela Navbar.
 - Utilizar imagens de bancos gratuitos relacionadas a tecnologia, negócios e automação.
 - Aplicar animações e microinterações de forma sutil, valorizando a experiência do usuário sem comprometer a performance.
 - Garantir que toda a Landing Page seja totalmente responsiva para desktop, tablet e dispositivos móveis.
-
-> **Verificar:** confirmar se todas as diretrizes acima estão efetivamente aplicadas na implementação atual.
